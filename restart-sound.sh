@@ -1,4 +1,2 @@
 #!/bin/sh
-pulseaudio -k
-pulseaudio --start
-
+sudo killall pulseaudio
