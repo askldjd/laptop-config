@@ -1,0 +1,10 @@
+how to connect to wifi from terminal
+
+in wpa_supplicant.conf
+network={
+    ssid="ssid_name"
+    psk="password"
+}
+  486  sudo wpa_supplicant -B -iwlp4s0 -c /etc/wpa_supplicant.conf -Dwext
+  487  sudo dhclient wlp4s0
+

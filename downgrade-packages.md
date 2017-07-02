@@ -2,4 +2,4 @@
 Server=https://archive.archlinux.org/repos/2014/03/30/$repo/os/$arch
 
 2. run 
-pacman -Syyuu
+sudo pacman -Syyuu
