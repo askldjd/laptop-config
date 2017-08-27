@@ -1,0 +1,5 @@
+journalctl --list-boots
+
+journalctl -b{boot-id}
+
+journalctl -r
