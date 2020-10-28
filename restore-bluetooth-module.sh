@@ -1,0 +1,1 @@
+yay pulseaudio-bluetooth
